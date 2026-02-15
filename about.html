@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+        }
+
+        header {
+            background-color: #222;
+            padding: 15px 0;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00adb5;
+        }
+
+        main {
+            padding: 40px;
+        }
+
+        section.main-section {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .about-section {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            color: #00adb5;
+            margin-bottom: 15px;
+        }
+
+        table {
+            border-collapse: collapse;
+            background-color: white;
+            width: 100%;
+        }
+
+        th {
+            background-color: #00adb5;
+            color: white;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./galary.html">Gallery</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main-section">
+
+            <!-- About Me -->
+            <section class="about-section">
+                <article>
+                    <!-- Inline CSS -->
+                    <img src="../image/0.jpg" alt="Chumalung"
+                        style="height:300px; width:300px; border-radius:50%; box-shadow:0 10px 25px rgba(0,0,0,0.3);">
+                </article>
+
+                <article>
+                    <h2>About Myself</h2>
+                    <table border="1">
+                        <tr>
+                            <th>Field</th>
+                            <th>Details</th>
+                        </tr>
+                        <tr>
+                            <td>Name</td>
+                            <td>Chumalung</td>
+                        </tr>
+                        <tr>
+                            <td>Age</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>Country</td>
+                            <td>Nepal</td>
+                        </tr>
+                        <tr>
+                            <td>Education</td>
+                            <td>Bachelor Student</td>
+                        </tr>
+                        <tr>
+                            <td>Skills</td>
+                            <td>HTML, CSS, Linux</td>
+                        </tr>
+                        <tr>
+                            <td>Hobbies</td>
+                            <td>Reading, Coding, Music</td>
+                        </tr>
+                    </table>
+                </article>
+            </section>
+
+            <!-- Academic Project -->
+            <article>
+                <h2>Academic Project Details</h2>
+
+                <table border="1">
+                    <tr>
+                        <th>Field</th>
+                        <th>Details</th>
+                    </tr>
+                    <tr>
+                        <td>Project Title</td>
+                        <td>Student Management System</td>
+                    </tr>
+                    <tr>
+                        <td>Subject</td>
+                        <td>Web Technology</td>
+                    </tr>
+                    <tr>
+                        <td>Project Type</td>
+                        <td>Academic Mini Project</td>
+                    </tr>
+                    <tr>
+                        <td>Technologies Used</td>
+                        <td>HTML, CSS, JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td>Team Members</td>
+                        <td>Individual Project</td>
+                    </tr>
+                    <tr>
+                        <td>Project Duration</td>
+                        <td>3 Months</td>
+                    </tr>
+                    <tr>
+                        <td>Project Description</td>
+                        <td>
+                            This project helps manage student records such as name, roll number,
+                            class, and marks using a web-based interface.
+                        </td>
+                    </tr>
+                </table>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Chumalung Chamling</p>
+    </footer>
+
+</body>
+</html>

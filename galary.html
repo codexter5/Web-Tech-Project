@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Internal CSS -->
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background-color: #f4f6f8;
+    }
+
+    header {
+      background-color: #222;
+      padding: 15px 0;
+    }
+
+    nav {
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #00adb5;
+    }
+
+    main {
+      padding: 40px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #00adb5;
+      margin: 30px 0;
+    }
+
+    table {
+      background-color: white;
+      border-collapse: collapse;
+      margin: auto;
+    }
+
+    td {
+      padding: 10px;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./galary.html">Gallery</a>
+      <a href="./contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Video (Inline CSS used) -->
+    <video src="../video/318885_small.mp4" controls width="400"
+      style="border-radius:10px; box-shadow:0 10px 25px rgba(0,0,0,0.3); margin-bottom:20px;">
+      Your browser does not support the video tag.
+    </video>
+
+    <br><br>
+
+    <!-- Audio -->
+    <audio controls style="margin-bottom:30px;">
+      <source src="../audio/sweet-life-luxury-chill-438146.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <h2>My Gallery</h2>
+
+    <!-- Image Gallery Table -->
+    <table border="1" cellpadding="10">
+      <tr>
+        <td>
+          <img src="https://plus.unsplash.com/premium_photo-1755925218366-f70a5ed56ba7"
+            width="200" height="150" alt="Image 1"
+            style="border-radius:8px;">
+        </td>
+        <td>
+          <img src="https://plus.unsplash.com/premium_photo-1755925218053-64b3cbd25498"
+            width="200" height="150" alt="Image 2"
+            style="border-radius:8px;">
+        </td>
+        <td>
+          <img src="https://plus.unsplash.com/premium_photo-1755925218519-ca250a47354f"
+            width="200" height="150" alt="Image 3"
+            style="border-radius:8px;">
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <img src="https://plus.unsplash.com/premium_photo-1673710895286-48549c29899f"
+            width="200" height="150" alt="Image 4"
+            style="border-radius:8px;">
+        </td>
+        <td>
+          <img src="https://plus.unsplash.com/premium_photo-1672275253764-c7f7189ac8bc"
+            width="200" height="150" alt="Image 5"
+            style="border-radius:8px;">
+        </td>
+        <td>
+          <img src="https://plus.unsplash.com/premium_photo-1672275179904-1e40de95d371"
+            width="200" height="150" alt="Image 6"
+            style="border-radius:8px;">
+        </td>
+      </tr>
+    </table>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Chumalung Chamling</p>
+  </footer>
+
+</body>
+</html>

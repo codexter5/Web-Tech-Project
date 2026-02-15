@@ -1,0 +1,74 @@
+/* External CSS */
+
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #007c82;
+}
+
+main section {
+    background-color: white;
+    border-radius: 10px;
+    margin: 40px auto;
+    max-width: 1000px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* External CSS for Gallery */
+
+img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+video:hover {
+  transform: scale(1.03);
+}
+
+table {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* External CSS for Contact Page */
+
+table {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border: 2px solid #00adb5;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+iframe:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+/* External CSS for About Page */
+
+img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+table {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
+}
+
+tr:hover {
+  background-color: #f0fafa;
+}
