@@ -337,6 +337,30 @@ footer {
 /* Mobile */
 @media (max-width: 768px) {
 
+  /* Make images fully responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Prevent horizontal scrolling */
+body {
+  overflow-x: hidden;
+}
+
+/* Fix gallery images (remove fixed height problem) */
+.gallery-grid img {
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+/* Make table safer on mobile */
+table {
+  min-width: 100%;
+}
+
   nav {
     flex-direction: column;
     gap: 12px;
